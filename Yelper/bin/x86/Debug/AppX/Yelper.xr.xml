@@ -32,7 +32,6 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -65,6 +64,7 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="AcceptsReturn" />
       <RootEvent Name="TextChanging" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Yelper.MainPage" />
   </Roots.RootTypes>

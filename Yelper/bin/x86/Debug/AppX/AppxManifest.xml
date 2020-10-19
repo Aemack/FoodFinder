@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="871a34b8-8549-474a-91d9-2e809b4438a1" Publisher="CN=Adam_" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="871a34b8-8549-474a-91d9-2e809b4438a1" Publisher="CN=Adam" Version="1.0.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="871a34b8-8549-474a-91d9-2e809b4438a1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Yelper</DisplayName>

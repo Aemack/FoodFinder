@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5UBBk4V4h8lFL1tF9naufhi3fRXuhf8Fm9aNm2tBEoxHZx4YJeoA5eB0l4DkKk6d9Q2cZ+sA07rc/Xy04B+Hcg==",
+  "dgSpecHash": "sARFw0S/EOCsgr67Z7/1A96BXHZy2MZlehVsH2tRONUcyOBK4xWnpLANWq+AxlgM/q3ml2WjKMutuqFviJ/dRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adam_\\source\\repos\\Yelper\\Yelper\\Yelper.csproj",
+  "projectFilePath": "C:\\Users\\Adam_\\source\\repos\\Yelper\\FoodFinder\\Yelper\\Yelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adam_\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
     "C:\\Users\\Adam_\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.9\\microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",

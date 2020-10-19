@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adam_\\source\\repos\\Yelper\\Yelper\\Yelper.csproj": {}
+    "C:\\Users\\Adam_\\source\\repos\\Yelper\\FoodFinder\\Yelper\\Yelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adam_\\source\\repos\\Yelper\\Yelper\\Yelper.csproj": {
+    "C:\\Users\\Adam_\\source\\repos\\Yelper\\FoodFinder\\Yelper\\Yelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adam_\\source\\repos\\Yelper\\Yelper\\Yelper.csproj",
+        "projectUniqueName": "C:\\Users\\Adam_\\source\\repos\\Yelper\\FoodFinder\\Yelper\\Yelper.csproj",
         "projectName": "Yelper",
-        "projectPath": "C:\\Users\\Adam_\\source\\repos\\Yelper\\Yelper\\Yelper.csproj",
+        "projectPath": "C:\\Users\\Adam_\\source\\repos\\Yelper\\FoodFinder\\Yelper\\Yelper.csproj",
         "packagesPath": "C:\\Users\\Adam_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adam_\\source\\repos\\Yelper\\Yelper\\obj\\",
+        "outputPath": "C:\\Users\\Adam_\\source\\repos\\Yelper\\FoodFinder\\Yelper\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

@@ -18,6 +18,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Media.Imaging;
 using Yelp.Api.Models;
+using Windows.Media.Devices;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -67,6 +68,7 @@ namespace Yelper
                 buss.Add(bus);
             }
             busId = 1;
+            DisplayPanel.Background = new SolidColorBrush(Windows.UI.Colors.White);
             DisplayName.Text = buss[busId].Name;
             DisplayRating.Text = buss[busId].Rating + " Stars";
             DisplayPhone.Text = buss[busId].Phone;
@@ -162,10 +164,23 @@ namespace Yelper
             Uri myUri = new Uri(buss[busId].Url, UriKind.Absolute);
             SiteLink.NavigateUri = myUri;
             DisplayPrice.Text = buss[busId].Price;
-            DisplayImage.Source = new BitmapImage(new Uri(buss[busId].ImageUrl));
+            if (buss[busId].ImageUrl != "")
+            {
+                DisplayImage.Source = new BitmapImage(new Uri(buss[busId].ImageUrl));
+            }
         }
 
+        private void LocationSearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
+            DisplayPanel.Background = new SolidColorBrush(Windows.UI.Colors.Black);
+            DisplayName.Text = "";
+            DisplayRating.Text = "";
+            DisplayPhone.Text = "";
+            DisplayImage.Source = null;
+            SiteLink.Content = "";
+            DisplayPrice.Text = "";
+        }
     }
 
 

@@ -9,8 +9,8 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>871a34b8-8549-474a-91d9-2e809b4438a1</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Adam_</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Adam_\source\repos\Yelper\Yelper\obj\x86\Debug\</IntermediateOutputPath>
+    <PackageIdentityPublisher>CN=Adam</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,25 +18,25 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>222C3F64F47810B3DEB153CA8313E9043B8F5600BC286CE132258D98BE742228</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>871a34b8-8549-474a-91d9-2e809b4438a1_1.0.0.0_x86__7gmvd2y9a6hca</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>871a34b8-8549-474a-91d9-2e809b4438a1_7gmvd2y9a6hca!App</RegisteredUserModeAppID>
+    <LayoutDir>C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>0C0D4144F922D933D1EFA856796CCF35C8FC3245D7630EF50092E3389DD058F7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>871a34b8-8549-474a-91d9-2e809b4438a1_1.0.1.0_x86__7npqabcqw1kgm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>871a34b8-8549-474a-91d9-2e809b4438a1_7npqabcqw1kgm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>871a34b8-8549-474a-91d9-2e809b4438a1</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Adam_</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredPackagePublisher>CN=Adam</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.1.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-18T18:30:34.642</Modified>
+      <Modified>2020-10-19T08:55:07.322</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\Yelper.exe">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\Yelper.exe">
       <PackagePath>entrypoint\Yelper.exe</PackagePath>
-      <Modified>2020-10-18T18:30:34.316</Modified>
+      <Modified>2020-10-19T08:55:06.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam_\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -58,67 +58,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T18:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-10-17T16:51:02.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-13T16:57:57.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\Yelper.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\Yelper.xr.xml">
       <PackagePath>Yelper.xr.xml</PackagePath>
-      <Modified>2020-10-18T18:30:34.197</Modified>
+      <Modified>2020-10-19T08:46:55.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-18T18:23:34.730</Modified>
+      <Modified>2020-10-19T08:55:06.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-18T18:30:34.201</Modified>
+      <Modified>2020-10-19T08:55:06.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T17:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-18T15:39:00.190</Modified>
+      <Modified>2020-10-19T08:29:46.612</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x86\Debug\Core\Yelper.exe">
+    <AppxPackagedFile Include="C:\Users\Adam_\source\repos\Yelper\FoodFinder\Yelper\bin\x86\Debug\Core\Yelper.exe">
       <PackagePath>Yelper.exe</PackagePath>
-      <Modified>2020-10-18T18:30:34.639</Modified>
+      <Modified>2020-10-19T08:55:07.319</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -13,10 +13,10 @@
         <StackPanel HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="314" Height="110">
             
             <TextBox x:Name="CuisineSearchBox" Text="" TextWrapping="Wrap" Width="231" Height="55" FontSize="15" TextChanging="CuisineSearchBox_TextChanging" Background="Gray" PlaceholderText="Cuisine..." AcceptsReturn="True"/>
-            <TextBox x:Name="LocationSearchBox" Text="" TextWrapping="Wrap" Width="231" Height="55" FontSize="15" TextChanging="LocationSearchBox_TextChanging" Background="Gray" PlaceholderText="Location" AcceptsReturn="True"/>
+            <TextBox x:Name="LocationSearchBox" Text="" TextWrapping="Wrap" Width="231" Height="55" FontSize="15" TextChanging="LocationSearchBox_TextChanging" Background="Gray" PlaceholderText="Location" AcceptsReturn="True" TextChanged="LocationSearchBox_TextChanged"/>
 
         </StackPanel>
-        <StackPanel HorizontalAlignment="Center" Margin="0,233,0,0" Orientation="Vertical" VerticalAlignment="Top" Background="White">
+        <StackPanel x:Name="DisplayPanel" HorizontalAlignment="Center" Margin="0,233,0,0" Orientation="Vertical" VerticalAlignment="Top">
             <TextBlock x:Name="DisplayName" Text="" TextWrapping="Wrap" Height="37" Width="306" FocusVisualPrimaryBrush="Black" Foreground="Black" FontSize="25" TextAlignment="Center" FontFamily="Poor Richard"/>
             <TextBlock x:Name="DisplayRating" Text="" TextWrapping="Wrap" Height="32" Width="306" FocusVisualPrimaryBrush="Black" Foreground="Black" FontSize="25" TextAlignment="Center" FontFamily="Poor Richard"/>
             <TextBlock x:Name="DisplayPrice" Text="" TextWrapping="Wrap" Height="32" Width="306" FocusVisualPrimaryBrush="Black" Foreground="Black" FontSize="25" TextAlignment="Center" FontFamily="Rockwell Extra Bold"/>
@@ -27,7 +27,7 @@
         </StackPanel>
         <Grid HorizontalAlignment="Center" Margin="0,233,0,0" VerticalAlignment="Top" Width="402">
             <Button x:Name="NextButton" Content="&gt;" Margin="363,0,0,0" Width="39" Height="370" Click="NextButton_Click"/>
-            <Button x:Name="BackButton" Content="&lt;" Width="39" Height="370" Click="NextButton_Click"/>
+            <Button x:Name="BackButton" Content="&lt;" Width="39" Height="370" Click="BackButton_Click"/>
 
         </Grid>
 
