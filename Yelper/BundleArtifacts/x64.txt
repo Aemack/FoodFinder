@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Adam_\source\repos\Yelper\Yelper\bin\x64\Debug\Yelper_1.0.1.0_x64_Debug.msix
+SymbolPackage=C:\Users\Adam_\source\repos\Yelper\Yelper\obj\x64\Debug\Symbols\Yelper_1.0.1.0_x64_Debug.appxsym

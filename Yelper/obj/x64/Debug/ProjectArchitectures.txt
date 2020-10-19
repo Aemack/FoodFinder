@@ -1,0 +1,1 @@
+C:\Users\Adam_\source\repos\Yelper\Yelper\Yelper.csproj;x64
