@@ -49,7 +49,7 @@ namespace Yelper
             Location coords = GetCoords(location);
 
             string cuisine = CuisineSearchBox.Text;
-            var client = new Yelp.Api.Client("kajZso7Voz4bsqibBVMZc8rpKJ-Hr_x10x1ai99vmFUOsT9z7TB1jN3TQPjLv2ftqKyl5H1_sliDXCdMZfj1b_qTUI3Nx3lU5tAf-7GTsjKeVX4W2y6F52Tx4BSLX3Yx");
+            var client = new Yelp.Api.Client("[KEY HERE]");
             var results = await client.SearchBusinessesAllAsync(cuisine, coords.Lat, coords.Long);
 
             foreach (object business in results.Businesses)
